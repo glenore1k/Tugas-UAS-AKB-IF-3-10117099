@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/wisata1"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/baksil1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata2"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/alunalun1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata3"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/bcc1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata4"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/tebing_keraton1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata5"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/saung_angklung1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata6"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/gedung_merdeka1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata7"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/goa1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata8"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/jendela_alam1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata9"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/kampung_batu1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata10"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/kebun_binatang1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wisata11"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:onClick="wisata">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="315px"
+                    android:layout_weight="1"
+                    android:src="@drawable/kebun_strawberry1"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
